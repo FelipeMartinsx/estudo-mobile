@@ -1,0 +1,36 @@
+// Dados fictícios: o app já começa com estas doações.
+export const doacoesIniciais = [
+  {
+    id: '1',
+    emoji: '🥖',
+    alimento: 'Pães franceses',
+    quantidade: '40 unidades',
+    doador: 'Padaria Pão Dourado',
+    local: 'Rua das Flores, 120 - Centro',
+    validade: 'Hoje, até 19h',
+    descricao: 'Pães do dia que não foram vendidos.',
+    reservada: false,
+  },
+  {
+    id: '2',
+    emoji: '🍎',
+    alimento: 'Frutas fora do padrão',
+    quantidade: '18 kg',
+    doador: 'Feira do Produtor',
+    local: 'Praça da Feira - Vila Nova',
+    validade: 'Amanhã, até 12h',
+    descricao: 'Maçãs e bananas com manchas na casca, mas boas para consumo.',
+    reservada: false,
+  },
+  {
+    id: '3',
+    emoji: '🍱',
+    alimento: 'Marmitas do almoço',
+    quantidade: '25 marmitas',
+    doador: 'Restaurante Sabor Caseiro',
+    local: 'Rua do Comércio, 45 - Centro',
+    validade: 'Hoje, até 17h',
+    descricao: 'Arroz, feijão, frango e legumes preparados hoje.',
+    reservada: false,
+  },
+];
